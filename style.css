@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button.modal-open-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #ddd;
+  border-radius: 3px;
+}
+.modal-wrapper {
+  width: 39%;
+  margin: auto;
+  text-align: center;
+  background: #474a27;
+  padding: 47px 35px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 13px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+button.continue {
+  padding: 10px 20px;
+  background: green;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+button.continue:hover {
+  background: rgb(6, 78, 6);
+}
+button.close {
+  padding: 10px 20px;
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+button.close:hover {
+  background: rgb(133, 8, 8);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .modal-wrapper {
+    width: 75%;
+  }
+}
